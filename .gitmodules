@@ -1,0 +1,16 @@
+[submodule "pack/vagrant/start/delimitMate"]
+	path = pack/vagrant/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+	branch = master
+[submodule "pack/vagrant/start/vim-wintabs"]
+	path = pack/vagrant/start/vim-wintabs
+	url = https://github.com/zefei/vim-wintabs.git
+	branch = master
+[submodule "pack/vagrant/start/Zenburn"]
+	path = pack/vagrant/start/Zenburn
+	url = https://github.com/jnurmine/Zenburn.git
+	branch = master
+[submodule "pack/vagrant/start/indentLine"]
+	path = pack/vagrant/start/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+	branch = master

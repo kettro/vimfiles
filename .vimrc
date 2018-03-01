@@ -9,6 +9,7 @@
 " * Indentation
 " * Movement Aliases
 " * Whitespace
+" * Windows and Splits
 " * AutoCommands
 " * Includes
 """""""""""""""""""""""""""
@@ -68,6 +69,9 @@ set laststatus=2
 " * Whitespace
 set list
 set listchars=tab:>-,trail:·,extends:>,precedes:<,nbsp:·
+
+" * Windows and Splits
+set splitright
 
 " * AutoCommands
 "   > Color
