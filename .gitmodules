@@ -18,11 +18,3 @@
 	path = pack/usr/start/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim
 	branch = master
-[submodule "pack/usr/start/vim-vebugger"]
-	path = pack/usr/start/vim-vebugger
-	url = https://github.com/idanarye/vim-vebugger.git
-	branch = master
-[submodule "pack/usr/start/rust.vim"]
-	path = pack/usr/start/rust.vim
-	url = https://github.com/rust-lang/rust.vim.git
-	branch = master
