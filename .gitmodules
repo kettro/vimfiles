@@ -18,3 +18,7 @@
 	path = pack/usr/start/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim
 	branch = master
+[submodule "pack/usr/start/gruvbox"]
+	path = pack/usr/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+	branch = master

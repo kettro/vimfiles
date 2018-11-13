@@ -21,18 +21,24 @@ syntax enable
 set number
 set visualbell
 set ttyfast
-set mouse=a
-set ttymouse=xterm2
 set cursorline
+set mouse=a
+if !has ('nvim')
+    set ttymouse=xterm2
+endif
 "set scrolloff=5
 set backspace=indent,eol,start
 
 " * Colors
 set t_ut=
+set termguicolors
 function! GetCurrentColor()
-    if !empty( ( globpath( &rtp, '/colors/zenburn.vim' ) ) )
-        colorscheme zenburn
-    endif
+    g:gruvbox_italics=1
+    set background=dark
+    colorscheme gruvbox
+    " if !empty( ( globpath( &rtp, '/colors/zenburn.vim' ) ) )
+    "     colorscheme zenburn
+    " endif
 endfunction
 
 "* Ctags
@@ -54,6 +60,8 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 " >> Add Language-specific tab rules
+au FileType clojure setlocal tabstop=2 shiftwidth=2 softtabstop=2
+au FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 " * Movement Aliases
 nnoremap j gj
