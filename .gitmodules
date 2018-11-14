@@ -22,3 +22,7 @@
 	path = pack/usr/start/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
 	branch = master
+[submodule "pack/usr/start/nerdtree"]
+	path = pack/usr/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+	branch = master
