@@ -42,12 +42,14 @@ function! GetCurrentColor()
 endfunction
 
 "* Ctags
+set tags+=.tags;$HOME
 
 " * Folds
 set foldenable
 set foldlevelstart=10
 set foldnestmax=10
-set foldmethod=indent
+"set foldmethod=indent
+set foldmethod=syntax
 nnoremap <Space> za
 
 " * Leader
@@ -62,6 +64,9 @@ set autoindent
 " >> Add Language-specific tab rules
 au FileType clojure setlocal tabstop=2 shiftwidth=2 softtabstop=2
 au FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2
+au FileType c setlocal tabstop=2 shiftwidth=2 softtabstop=2
+au FileType c++ setlocal tabstop=2 shiftwidth=2 softtabstop=2
+au FileType cpp setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 " * Movement Aliases
 nnoremap j gj

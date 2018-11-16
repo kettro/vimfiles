@@ -26,3 +26,7 @@
 	path = pack/usr/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 	branch = master
+[submodule "pack/usr/start/tagbar"]
+	path = pack/usr/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+	branch = master
