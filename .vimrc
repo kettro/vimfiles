@@ -43,6 +43,7 @@ endfunction
 
 "* Ctags
 set tags+=.tags;$HOME
+nmap <leader>t g<C-t>
 
 " * Folds
 set foldenable
@@ -73,6 +74,8 @@ nnoremap j gj
 nnoremap k gk
 nnoremap B ^
 nnoremap E $
+nmap <C-j> 5j
+nmap <C-k> 5k
 
 " * Status Line
 set showcmd
@@ -82,6 +85,7 @@ set laststatus=2
 " * Whitespace
 set list
 set listchars=tab:>-,trail:·,extends:>,precedes:<,nbsp:·
+nnoremap dc cc<Esc>
 
 " * Windows and Splits
 set splitright
